@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'carrierwave', '~> 1.3.1'
-  spec.add_dependency 'google-cloud-storage', '~> 1.17.0'
+  spec.add_dependency 'google-cloud-storage', '~> 1.21.0'
   if RUBY_VERSION >= '2.2.2'
     spec.add_dependency 'activemodel', '>= 3.2.0'
   else
